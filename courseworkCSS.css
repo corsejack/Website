@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	margin: 0;
+}
+
+/* This style selector is to style the the rectangle part of the banner, giving it a white background, rounding it and making the size to the size of the text*/
+.banner{
+	border-radius: 15px;
+	background-color:azure;
+	height: auto;
+	width: auto;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-align: center;
+	font-size: 50px;
+	color:lightseagreen;
+	
+}
+
+
+/* This is making the background of the website a picture of the waves, and that picture gave me the colour pallete for this website*/
+html{
+	background:url('wavebackground.jpeg')	no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	min-height: 100%;
+}
+
+/* This is styling the icons on the home page, just changing the size and giving them some padding to seperate them. */
+.icons {
+	
+	padding: 50px;
+	height: 375px;
+	
+}
+
+/* this is styling the footer. modifying the text on it and the background.*/
+.footer{
+	
+    bottom: 0;
+	height: 60px;
+    width: 100%;
+	max-height: 100%;
+    background-color: azure;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    text-align: center;
+	font-size: 25px;
+	color: lightseagreen;
+	border-radius: 15px;
+	margin: 0;
+
+}
+
+/*This is styling the background for the text on the CV page, centering it and spreading out a bit to make it neat. */
+.Maintext{
+	
+	width: 1250px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px 20px;
+	background-color: azure;
+	border-radius: 15px;
+}
+
+/*This is styling the text on the on the CV page, changing font and spreading it out a bit*/
+.Text{
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: center;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 20px;
+	color: lightseagreen;
+	
+}
+
+/* This is styling the pictures on the projects page giving them a nice border and spreading them out*/
+.ProjectPictures{
+	
+	padding:7.5px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	display: inline;
+	border-radius: 15px;
+	width: 300px;
+	background-color: azure;
+
+}
+
+/* This is styling the text that is describing the projects, same as the other text styles colour change and seperating it out*/
+.ProjectDescription {
+
+	margin-left: 45px;
+	margin-right: 45px;
+	background-color: azure;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: lightseagreen;
+	border-radius: 7.5px;
+	padding: 10px 10px 10px 10px;
+	font-size: 20px;
+
+}
+
+/* This styles the shortcuts/navbar, changing the size and spreading it out. */
+.shortcut {
+	
+	padding: 10px;
+	height:50px;
+	
+}
+
+
